@@ -1,0 +1,116 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:monospace;
+    background-color: lightgray;
+}
+
+.container {
+    margin: auto;
+    padding: 20px 30px;
+    max-width: 850px;
+    background-color: white;
+    margin-top: 5rem;
+    border-radius: 10px; 
+}
+
+.row {
+    display: flex;
+    
+}
+
+.row > .left-side {
+    flex:1;
+    margin-left: 5rem;
+}
+
+.row > .right-side  {
+    flex:1;
+    margin-right: 5rem;
+}
+
+.name {
+    font-size: 15px;
+    margin-left: 1rem;
+}
+
+.buyer {
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.paragraph {
+    font-size: 10px;
+    margin-left: 1rem;
+}
+
+.card-first {
+    position: relative;
+    top:1%;
+    left:1%;
+    padding: 10px 1px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;   
+    margin-left: 5rem;
+}
+
+.card-secend {
+    padding: 10px 1px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;   
+}
+
+.card-third {
+    padding: 10px 1px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;   
+    margin-right: 5rem;
+}
+
+.span{
+    width: 200px;
+}
+
+.left-span-1 {
+    width: 70%;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: hsl(300, 24%, 96%);
+    margin-left: 4rem;
+}
+
+
+.left-span-2 {
+    width: 70%;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: hsl(300, 24%, 96%);
+    margin-left: 6rem;
+}
+
+
+.left-span-3 {
+    width: 70%;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: hsl(300, 24%, 96%);
+    margin-left: 8rem;
+}
+
+
+.color-Magenta {
+    color:hsl(300, 43%, 22%);
+}
