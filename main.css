@@ -16,6 +16,7 @@ body {
     background-color: white;
     margin-top: 5rem;
     border-radius: 10px; 
+    height: 34rem;
 }
 
 .row {
@@ -33,9 +34,27 @@ body {
     margin-right: 5rem;
 }
 
+.header {
+    display: flex;
+}
+
 .name {
     font-size: 15px;
     margin-left: 1rem;
+}
+
+.buyer {
+    color: hsl(300, 43%, 65%);
+} 
+
+.img {
+    width: 2.5rem;
+    height: 2.5rem;
+    clip-path: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    overflow: hidden;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .buyer {
@@ -50,38 +69,77 @@ body {
 
 .card-first {
     position: relative;
-    top:1%;
-    left:1%;
+    transform: translate(-0%, 20%);
+    width: 90rem;
     padding: 10px 1px;
     margin: 5px;
     border-radius: 8px;
     background-color: hsl(300, 43%, 22%);
     color: white;   
     margin-left: 5rem;
+    transition: all .8s;
 }
 
 .card-secend {
+    position: relative;
+    transform: translate(-0%, 30%);
+    width: 90rem;
     padding: 10px 1px;
     margin: 5px;
     border-radius: 8px;
     background-color: hsl(300, 43%, 22%);
-    color: white;   
+    color: white; 
+    transition: all .8s;  
 }
 
 .card-third {
+    position: relative;
+    transform: translate(-0%, 40%);
+    width: 90rem;
     padding: 10px 1px;
     margin: 5px;
     border-radius: 8px;
     background-color: hsl(300, 43%, 22%);
     color: white;   
     margin-right: 5rem;
+    transition: all .8s;
+}
+
+.card-first:hover {
+    transform: translateY(1rem);
+}
+
+.card-secend:hover {
+    transform: translateY(1rem);
+}
+
+.card-third:hover {
+    transform: translateY(1rem);
+}
+
+.span-0 {
+    margin-top: 2.5rem;
+    width: 210px;
 }
 
 .span{
-    width: 200px;
+    width: 310px;
+    margin-bottom: 2rem;
 }
 
 .left-span-1 {
+    margin-top: 2.5rem;
+    width: 70%;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: hsl(300, 24%, 96%);
+    margin-left: 2rem;
+}
+
+
+.left-span-2 {
+    margin-top: 2.5rem;
     width: 70%;
     font-weight: bold;
     border-radius: 8px;
@@ -91,23 +149,14 @@ body {
 }
 
 
-.left-span-2 {
+.left-span-3 {
+    margin-top: 2.5rem;
     width: 70%;
     font-weight: bold;
     border-radius: 8px;
     padding: 5px 10px;
     background-color: hsl(300, 24%, 96%);
     margin-left: 6rem;
-}
-
-
-.left-span-3 {
-    width: 70%;
-    font-weight: bold;
-    border-radius: 8px;
-    padding: 5px 10px;
-    background-color: hsl(300, 24%, 96%);
-    margin-left: 8rem;
 }
 
 
